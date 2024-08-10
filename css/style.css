@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+
+    --Brown-800: hsl(14, 45%, 36%);
+
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+    --fuente-principal: 'Young Serif', sans-serif;
+    --fuente-secundaria: 'Outfit', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .main {
+        margin: 10rem 0;
+    }
+}
+
+.image__container {
+    border-radius: 4rem 4rem 0 0;
+    padding-top: 8rem;
+    background-color: var(--White);
+}
+
+.container {
+    border-radius: 0 0 4rem 4rem;
+}
+
+.image__container img {
+    border-radius: 2rem;
+}
+
+.header__title {
+    color: var(--Stone-900);
+    font-size: 4rem;
+}
+
+.header__description {
+    color: var(--Stone-600);
+}
+
+.preparationTime {
+    font-family: var(--fuente-secundaria);
+    background-color: var(--Rose-50);
+    margin: 5rem 0;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.preparationTime__title {
+    font-weight: 700;
+    color: var(--Rose-800);
+}
+
+.preparationTime__list {
+    padding: 0 0 0 3rem;
+}
+
+.preparationTime__list--item {
+    color: var(--Stone-600);
+}
+
+.preparationTime__list--item span {
+    color: var(--Stone-900);
+    font-weight: 900;
+    margin-left: 3rem;
+}
+
+.instructions__list--item {
+    margin-left: 3rem;
+}
+
+.instructions__list--item p {
+    color: var(--Stone-600);
+    margin: 0 0 0 2rem;
+}
+
+.instructions__list--item p span {
+    font-weight: 900;
+}
+
+.instructions__list--item::marker {
+    color: var(--Brown-800);
+    font-weight: 900;
+}
+
+.ingredients__title {
+    color: var(--Brown-800);
+}
+
+.nutrition {
+    color: var(--Stone-600);
+}
+
+.nutrition__description {
+    margin: 3rem 0;
+}
+
+.nutrition__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--Rose-50);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.nutrition__list--character {
+    border-right: .2px solid var(--Stone-150);
+}
+
+.nutrition__list--character,
+.nutrition__list--values {
+    padding: 0;
+    margin: 2rem 0;
+    list-style-type: none;
+}
+
+.nutrition__list--character li,
+.nutrition__list--values li {
+    margin-left: 2rem;
+}
+
+.nutrition__list--character hr,
+.nutrition__list--values hr {
+    margin: .5rem 0 2rem 0;
+}
+
+.footer {
+    background-color: var(--White);
+    margin: 0 auto;
+    height: 1rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .attribution {
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    border-bottom: var(--gray-500) solid .2rem;
+}
