@@ -33,13 +33,15 @@ Este proyecto consiste en una tarjeta de vista previa para la entrada de un blog
 - Utiliza media queries para adaptar el diseño a diferentes tamaños de pantalla.
 
 ### Estructura de la Tarjeta
-- Un área de imagen destacada
+- Un área de imagen destacada.
 - La sección de contenido incluye:
-  - Categoría del artículo.
-  - Fecha de publicación.
-  - Título del artículo.
-  - Breve descripción.
-  - Perfil del autor (imagen y nombre).
+  - Título y presentación de la entrada.
+  - Una breve descripción sobre el tema a tratar.
+  - Tiempo de preparación total.
+  - Ingredientes a utilizar en la receta.
+  - Instrucciones que describan de forma resumida, pero eficaz, los pasos a seguir para la elaboración de la receta.
+  - Una tabla de nutrición en donde se especifican datos como las calorías, proteínas, etc.
+  - Un footer en donde encontrar mi perfil de GitHub y mi perfil de Frontend Mentor.
 
 ### Estilo y Presentación
 - Se utiliza una paleta de colores predefinida con variables CSS.
